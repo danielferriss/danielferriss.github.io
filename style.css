@@ -1,12 +1,22 @@
+body {
+    background-image: url('pattern.svg');
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+}
+
 /********************************************************
 ***********************NAV BAR***************************
 ********************************************************/
 
 /*gets rid of default list look*/
 ul {
-	position: absolute;
-	left: 0;
-	right: 0;
+    position: absolute;
+    left: 0px;
+    right: 0px;
     list-style-type: none;
     margin: 0;
     padding: 0;
