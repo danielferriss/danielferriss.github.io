@@ -1,17 +1,43 @@
-body {
+html,body {
     background-image: url('pattern.svg');
+    min-width:760px;
+    overflow: hide;
 }
 
 #name {
-    min-width: 50%;
     text-align: center;
     font-family: "Helvetica",Sans-Serif;
     font-size: 5vw;
     font-weight: bold;
     color: #ffffff;
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
     border: solid white .8vw;
 }
+
+#links {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 10vw;
+    display: flex;
+    min-width: 7em;
+}
+
+.icon {
+    width: 100%;
+}
+
+.icon a {
+    width: 100%;
+    flex: 1;
+    margin-right: 100px;
+}
+.icon img {
+    width: 80%;
+}
+
+
