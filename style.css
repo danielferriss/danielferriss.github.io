@@ -1,5 +1,5 @@
 html,body {
-    background-image: url('pattern.svg');
+    background-image: url('pictures/pattern.svg');
     min-width:760px;
     overflow: hide;
 }
@@ -34,7 +34,6 @@ html,body {
 .icon a {
     width: 100%;
     flex: 1;
-    margin-right: 100px;
 }
 .icon img {
     width: 80%;
