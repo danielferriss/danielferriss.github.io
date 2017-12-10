@@ -2,6 +2,7 @@ html,body {
     background-image: url('pictures/pattern.svg');
     min-width:760px;
     overflow: hide;
+    background-repeat: none;
 }
 
 #name {
