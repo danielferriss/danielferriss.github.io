@@ -3,6 +3,8 @@ html,body {
     min-width:760px;
     overflow: hide;
     background-repeat: none;
+    background-size:100%;
+    width:100%;
 }
 
 #name {
