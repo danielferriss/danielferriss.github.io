@@ -1,5 +1,6 @@
 html,body {
     background-image: url('pictures/pattern.svg');
+    background-size:cover;
     min-width:760px;
     overflow: hide;
     background-size:100%;
