@@ -2,7 +2,6 @@ html,body {
     background-image: url('pictures/pattern.svg');
     min-width:760px;
     overflow: hide;
-    background-repeat: no-repeat;
     background-size:100%;
     width:100%;
 }
